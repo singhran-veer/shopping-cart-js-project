@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Comfy House</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="logo">Comfy House</div>
+    <button class="toggle-btn" id="nav-toggle">&#9776;</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#products">Products</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Comfy House</h1>
+    <button id="cart-btn">Cart (<span id="cart-count">0</span>)</button>
+  </header>
+
+  <main>
+
+    <!-- PRODUCTS SECTION -->
+    <section id="products" class="products-section">
+      <div id="products-container"></div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials" class="testimonials">
+      <h2>What Our Customers Say</h2>
+      <div id="testimonial-list" class="testimonial-list"></div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+      <h2>Contact Us</h2>
+      <p>Email: comfy@house.com</p>
+      <p>Phone: +1 (800) 123-4567</p>
+    </section>
+
+  </main>
+
+  <!-- CART PANEL & OVERLAY -->
+  <div id="overlay"></div>
+  <section id="cart">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <p>Total: $<span id="cart-total">0.00</span></p>
+    <button id="clear-cart">Clear Cart</button>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

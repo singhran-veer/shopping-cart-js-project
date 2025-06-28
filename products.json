@@ -1,0 +1,38 @@
+{   
+
+
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Comfortable Chair",
+        "price": 49.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "images/chair.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Stylish Sofa",
+        "price": 89.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "images/sofa.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
+
+
+
+
