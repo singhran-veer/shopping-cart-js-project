@@ -2,6 +2,12 @@
 
 A simple, responsive shopping cart built with **HTML**, **CSS**, and **Vanilla JavaScript** — no frameworks! Users can browse products, add to cart, adjust quantities, and manage their selections, all with a clean UI and local storage support.
 
+## 🚀 Live Demo
+Deployed with **Vercel**  
+🔗 https://shopping-cart-js-pr-git-ddbb1f-ranveer-singhs-projects-078bbeff.vercel.app/
+
+---
+
 screenshot
 ![image](https://github.com/user-attachments/assets/032d4fa1-086e-44c0-8c74-6bac3f20b1f7)
 
@@ -23,12 +29,10 @@ screenshot
 
 ---
 
-## 🚀 Live Demo
 
-Deployed with **Vercel**  
-🔗 https://vercel.com/ranveer-singhs-projects-078bbeff/shopping-cart-js-project/TNLFsJwNqjM5mwu6yTMYxvUJHTjy
 
----
+
+
 
 ## 🛠️ Getting Started
 
